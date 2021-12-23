@@ -114,8 +114,8 @@ body {
 
 /* Very light scaling for our illustration */
 .title {
-  color: #ff3d6e;
-  font-family: HK Grotesk;
+  color: #000000;
+  font-family:serif;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
@@ -150,8 +150,9 @@ input {
 
 /* Subheading */
 h2 {
-  color: #ff9cb4;
-  font-size: 40px;
+  color: #000000;
+  font-size: 30px;
+  font-family: serif;
 }
 
 /* Interactive image */
@@ -165,4 +166,58 @@ h2 {
 */
 .dipped {
   transform: translateY(5px);
+}
+
+@keyframes shine {
+	0% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes shine {
+	0% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media screen {
+  body {
+    background-color: rgba(255, 255, 255, 0.377);
+  }
+  .title{
+    font-size: 90px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px)  {
+  body {
+    background-color: rgb(251, 255, 0);
+  }
+  .title{
+    font-size: 50px;
+}
+
+
+@media screen and (max-width: 599px) {
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+  .title{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  body {
+    background-color: rgb(255, 0, 119);
+  }
+  .image{
+    width: 100%;
+  }
 }

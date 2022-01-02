@@ -194,33 +194,6 @@ h2 {
     font-size: 90px;
 }
 
-@media screen and (min-width: 600px) and (max-width: 1024px)  {
-  body {
-    background-color: rgb(251, 255, 0);
-  }
-  .title{
-    font-size: 50px;
-}
-
-
-@media screen and (max-width: 599px) {
-  body {
-    background-color: rgb(255, 0, 0);
-  }
-  .title{
-    font-size: 20px;
-  }
-
-}
-
-@media screen and (max-width: 520px) {
-  body {
-    background-color: rgb(255, 0, 119);
-  }
-  .image{
-    width: 100%;
-  }
-}
 
 .snow {
   color: rgb(255, 2, 2); /*雪の色*/

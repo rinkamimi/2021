@@ -223,7 +223,7 @@ h2 {
 }
 
 .snow {
-  color: snow; /*雪の色*/
+  color: rgb(255, 2, 2); /*雪の色*/
   font-size: 18px; /*雪の大きさ*/
   position: fixed;
   top: -5%; /*初期位置*/
